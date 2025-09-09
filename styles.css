@@ -1,36 +1,41 @@
-.h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-.navbar{
-    background-color: rgb(48, 49, 49);
-    padding: 2px;
-    text-align: center;
-    font-weight:bold
-}
-.navbar ul li{
-    display: inline;
-    text-align: center;
-    padding: 5px;
-    color: white;
+body{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header{
     text-align: center;
-    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: rgb(43, 42, 42);
+    text-align: center;
+    padding: 7px;
+}
+.navbar ul li{
+    color: white;
+    display: inline;
+    padding: 5px;
+}
+.form h2{
+    text-align: center;
+}
+form{
+    border: solid;
+    color: black;
+    margin: 40px;
+    padding: 20px;
+}
+.b1{
+    background-color: black;
+    color: white;
+    padding: 5px 210px;
+}
+input{
+    padding: 10px 145px;
+    align-items: center;
+    margin: 10px 0px;
 }
 footer{
     background-color: lightgrey;
     text-align: center;
-}
-.table{
-    border-collapse: collapse;
-}
-
-.table td{
-    border-style: solid;
-    padding: 5px;
-;
-}
-.table th{
-    padding: 5px;
+    padding: 1px 0.5px;
 }
