@@ -3,80 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML list and table</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>forms</title>
+    <link rel="stylesheet" href="styles.css"
 </head>
 <body>
-    <h1 class="header">HTML lists and tables</h1>
+    <h1 class="header">Contact form exercise</h1>
     <div class="navbar">
         <nav>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact us</li>
+            </ul>
         </nav>
-    </div>
-   
-    <div class="order">
-         <h3>Ordered List</h3>
-        <ol>
-            <li>item 1</li>
-            <li>item 2</li>
-            <li>item 3</li>
-        </ol>
-    </div>
-    <div class="unorder">
-         <h3>Unordered List</h3>
-        <ul>
-            <li>bullet 1</li>
-            <li>bullet 2</li>
-            <li>bullet 3</li>
-        </ul>
-    </div>
-    <div class="description">
-         <h3>Description List</h3>
-        <dl>
-         <dt>term 1</dt>
-         <dd>definiton</dd>
-        </dl>
-        <dl>
-            <dt>term 2</dt>
-            <dd>definiton</dd>
-        </dl>
-    </div>
+    </div><br><br>
+    <div class="form">
+        <form>
+            <h2>contact us</h2>
 
-    <div class="table">
-        <h3>Simple table</h3>
-        <table border="1">
+           <b> <tr>
+                <td><label>name:</label></td><br>
+                <td><input type="text"></td><br>
+            </tr><br>
             <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>City</th>
-                <th>Occupation</th>
-            </tr>
+                <td><label>email:</label></td><br>
+                <td><input type="email"></td><br>
+            </tr><br>
             <tr>
-                <td>John doe</td>
-                <td>28</td>
-                <td>NewYork</td>
-                <td>Developer</td>
-            </tr>
+                <td><label>phone:</label></td><br>
+                <td><input type="tel"></td><br>
+            </tr><br>
             <tr>
-                <td>jane smith</td>
-                <td>34</td>
-                <td>toronto</td>
-                <td>designer</td>
-            </tr>
-            <tr>
-                <td>tom brown</td>
-                <td>22</td>
-                <td>london</td>
-                <td>student</td>
-            </tr>
-        </table>
+                <td><label>messsage:</label></td><br>
+                <textarea class="message"  name="Message:" rows="4" cols="60"></textarea>
+            </tr><br></b><br>
+            <button class="b1">submit</button>
+        </form>
     </div>
     <footer>
-        <p>© 2024 My First HTML Page</p>
+        <p>© 2024 My First HTML Form</p>
     </footer>
 </body>
 </html>
